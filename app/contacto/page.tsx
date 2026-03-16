@@ -44,27 +44,27 @@ export default function Contacto() {
         </div>
 
         {/* Columna Derecha: Formulario */}
-        <div className="bg-[#374151] p-8 md:p-12 rounded-3xl shadow-sm border border-gray-600">
+        <div className="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-300">
           <form className="space-y-6">
             <div>
-              <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-200">Nombre Completo</label>
+              <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-700">Nombre Completo</label>
               <input 
                 type="text" 
                 placeholder="Nombre y Apellidos"
-                className="w-full p-4 rounded-xl border border-gray-600 bg-[#1E293B] text-white placeholder:text-gray-400 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
+                className="w-full p-4 rounded-xl border border-gray-300 bg-white text-gray-900 placeholder:text-gray-500 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
               />
             </div>
             <div>
-              <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-200">Email de contacto</label>
+              <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-700">Email de contacto</label>
               <input 
                 type="email" 
                 placeholder="correo@dominio.com"
-                className="w-full p-4 rounded-xl border border-gray-600 bg-[#1E293B] text-white placeholder:text-gray-400 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
+                className="w-full p-4 rounded-xl border border-gray-300 bg-white text-gray-900 placeholder:text-gray-500 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
               />
             </div>
             <div>
-              <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-200">¿En qué podemos ayudarte?</label>
-              <select className="w-full p-4 rounded-xl border border-gray-600 bg-[#1E293B] text-white focus:border-[#1E73BE] outline-none transition cursor-pointer">
+              <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-700">¿En qué podemos ayudarte?</label>
+              <select className="w-full p-4 rounded-xl border border-gray-300 bg-white text-gray-900 focus:border-[#1E73BE] outline-none transition cursor-pointer">
                 <option>Desarrollo de CRM</option>
                 <option>Sistema TPV a medida</option>
                 <option>Página Web Profesional</option>
@@ -72,11 +72,11 @@ export default function Contacto() {
               </select>
             </div>
             <div>
-              <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-200">Cuéntanos más</label>
+              <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-700">Cuéntanos más</label>
               <textarea 
                 rows={4}
                 placeholder="Describe brevemente tu idea..."
-                className="w-full p-4 rounded-xl border border-gray-600 bg-[#0F172A] text-white placeholder:text-gray-400 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
+                className="w-full p-4 rounded-xl border border-gray-300 bg-white text-gray-900 placeholder:text-gray-500 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
               ></textarea>
             </div>
             <button className="w-full bg-[#1E73BE] hover:bg-[#165a96] text-white font-bold py-4 rounded-xl transition-all shadow-lg shadow-blue-900/10">
