@@ -44,14 +44,14 @@ export default function Contacto() {
         </div>
 
         {/* Columna Derecha: Formulario */}
-        <div className="bg-[#1F2937] p-8 md:p-12 rounded-3xl shadow-sm border border-gray-700">
+        <div className="bg-[#374151] p-8 md:p-12 rounded-3xl shadow-sm border border-gray-600">
           <form className="space-y-6">
             <div>
               <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-200">Nombre Completo</label>
               <input 
                 type="text" 
                 placeholder="Nombre y Apellidos"
-                className="w-full p-4 rounded-xl border border-gray-600 bg-[#0F172A] text-white placeholder:text-gray-400 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
+                className="w-full p-4 rounded-xl border border-gray-600 bg-[#1E293B] text-white placeholder:text-gray-400 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
               />
             </div>
             <div>
@@ -59,12 +59,12 @@ export default function Contacto() {
               <input 
                 type="email" 
                 placeholder="correo@dominio.com"
-                className="w-full p-4 rounded-xl border border-gray-600 bg-[#0F172A] text-white placeholder:text-gray-400 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
+                className="w-full p-4 rounded-xl border border-gray-600 bg-[#1E293B] text-white placeholder:text-gray-400 focus:border-[#1E73BE] focus:ring-2 focus:ring-[#1E73BE]/20 outline-none transition"
               />
             </div>
             <div>
               <label className="block text-sm font-bold mb-2 uppercase tracking-wide text-gray-200">¿En qué podemos ayudarte?</label>
-              <select className="w-full p-4 rounded-xl border border-gray-600 bg-[#0F172A] text-white focus:border-[#1E73BE] outline-none transition cursor-pointer">
+              <select className="w-full p-4 rounded-xl border border-gray-600 bg-[#1E293B] text-white focus:border-[#1E73BE] outline-none transition cursor-pointer">
                 <option>Desarrollo de CRM</option>
                 <option>Sistema TPV a medida</option>
                 <option>Página Web Profesional</option>
